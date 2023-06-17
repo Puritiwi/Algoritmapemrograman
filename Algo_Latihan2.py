@@ -1,52 +1,25 @@
-# Setting Variabel Nilai 
-a = 10 
-b = 20 
+# Setting Variabel
+a = 10
+b = 20
 c = 50
+p = a
+l = b
+t = c
 
-# Perhitungan 
-hasil = ((a * b) * (b + c)) / (a + b + c)
+# Rumus
+A = ((a+b)*(b*c))/(a+b+c)
+B = p*l*t
+C = 1/2*a*t
+D = (((a+b)**2)+((b*c)**2))/(a*b)
 
-# Hasil Perhitungan 
-print("----------------------")
-print("Masukkan nilai a:", a)
-print("Masukkan nilai b:", b)
-print("Masukkan nilai c:", c)
-print("----------------------")
-print("Hasil perhitungan: ", hasil)
-print("----------------------")
-
-
-# Setting Variabel Nilai 
-p = 10 
-l = 20 
-t = 50
-
-# Perhitungan 
-hasil =p*l*t
-# Hasil Perhitungan
-print("----------------------")
-print("Masukkan nilai p:", p)
-print("Masukkan nilai l:", l)
-print("Masukkan nilai t:", t)
-print("----------------------")
-print("Hasil perhitungan: ", hasil)
-print("----------------------")
-
-
-
-# Setting Variabel Nilai 
-a = 10 
-b = 20 
-c = 50
-
-# Perhitungan 
-hasil = ((a + b)**2 + (b * c)**2) / (a * b)
-
-# Hasil Perhitungan 
-print("-----------------------------------")
-print("Masukkan nilai a:", a)
-print("Masukkan nilai b:", b)
-print("Masukkan nilai c:", c)
-print('-----------------------------------')
-print("Hasil perhitungan: ", hasil)
-print("-----------------------------------")
+# Cetak Hasil
+print("------------------------")
+print("a = p=",a)
+print("b = l=",b)
+print("c = t=",c)
+print("------------------------")
+print("Hasil dari A =",A)
+print("Hasil dari B =",B)
+print("Hasil dari C =",C)
+print("Hasil dari D =",D)
+print("------------------------")
