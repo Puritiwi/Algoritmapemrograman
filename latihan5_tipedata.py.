@@ -1,0 +1,28 @@
+tuple_1 = ("Faqih","Nicko","Ageng","Ihsan","Adin")
+tuple_2 = (23,42,12,53,64)
+tuple_3 = "Puri","Putri","Syifa","Lord Anggun"
+
+print(tuple_1)
+print(tuple_2)
+print(tuple_3)
+
+
+# membuat tuple yang bernilai kosong
+empty_tuple = ()
+print("tuple kosong: ", empty_tuple)
+
+# tuple bernilai integer
+int_tuple = (4,6,8,10,12,14)
+print("Tuple bernilai Integer: ", int_tuple)
+
+# Tuple dengan kombinasi tipe data 
+mixed_tuple = (4,"phyton",9.3)
+print("Tuple dengan type data yang berbeda: ", mixed_tuple)
+
+#Tuple bersarang 
+nested_tuple = ("Phyton", {4: 5, 6: 2, 8:2}, (5, 3, 5, 6))
+print("A Tuple bersarang: ", nested_tuple)
+
+print()
+print()
+print()
