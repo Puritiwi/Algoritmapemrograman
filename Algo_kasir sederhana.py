@@ -1,4 +1,4 @@
-# Nama Barang
+#Nama Barang
 indomie       = int(input("Jumlah indomie       : "))
 minuman       = int(input("Jumlah minuman       : "))
 gula          = int(input("Jumlah gula          : "))
@@ -16,15 +16,12 @@ j_telur         = 30000*telur
 belanja=(j_indomie+j_minuman+j_gula+j_beras+j_telur)
 
 # Diskon
-if belanja > 200000:
-    diskon = belanja*0.2
+if belanja >=100000:
+    diskon = 10
 else:
   diskon = 0
-f_diskon = f"                                            {diskon:.2f}".rstrip("0").rstrip(".")
-
 # Total Harga 
-harga = belanja-diskon
-f_harga = f"                                              {harga:.2f}".rstrip("0").rstrip(".")
+harga = belanja - ((diskon/100)*belanja)
 
 print("------------------------------------------------------")
 print("               TOKO SEMBAKO BERLIAN                   ")
@@ -38,10 +35,10 @@ print("   5.          Telur         " ,telur,                                   
 print("")
 print("------------------------------------------------------")
 print("                          Total Belanja : Rp.",belanja )
-print("                             Diskon     : Rp.",f_diskon)
+print("                          Diskon (%)    : Rp.",diskon)
 print("-----------------------------------------------------",)
 print("")
-print("                           Total Harga : Rp.",f_harga)
+print("                           Total Harga : Rp.",harga)
 bayar = int(input("                   Bayar   : Rp."         ))
 while bayar < harga:
     print("uang anda kurang'")
@@ -49,8 +46,7 @@ while bayar < harga:
     
 # kembali 
 kembali = bayar-harga 
-f_kembali = f"                                            {kembali:.2f}".rstrip("0").rstrip(".")
-print("                           Kembalian : Rp",f_kembali)
+print("                           Kembalian : Rp",kembali)
 print("")
 print("")
 print("") 
